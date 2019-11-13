@@ -1,0 +1,26 @@
+USE test
+
+CREATE TABLE user(
+id INT (11) AUTO_INCREMENT NOT NULL PRIMARY KEY,
+first_name VARCHAR(250),
+last_name VARCHAR(250),
+username VARCHAR(250),
+password VARCHAR(250),
+salary INT(12),
+age int(12)
+)
+
+CREATE TABLE user(
+age int(12),
+first_name VARCHAR(250),
+last_name VARCHAR(250),
+password VARCHAR(250),
+salary INT(12),
+username VARCHAR(250)
+)
+
+DROP TABLE USER
+
+INSERT INTO USER VALUES(1,"marcelo","cuellar","mcuellar","tecsup",2000.34,21)
+
+SELECT * FROM user
